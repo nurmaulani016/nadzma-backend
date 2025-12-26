@@ -1,0 +1,35 @@
+### 1. Ambil semua cost logistic
+GET http://localhost:5000/api/cost-logistics
+Content-Type: application/json
+
+
+### 2. Tambah cost logistic baru
+POST http://localhost:5000/api/cost-logistics
+Content-Type: application/json
+
+{
+  "unit": "Bus Pariwisata",
+  "price": 1500000,
+  "checked": true
+}
+
+
+### 3. Ambil cost logistic berdasarkan ID
+GET http://localhost:5000/api/cost-logistics/1
+Content-Type: application/json
+
+
+### 4. Update cost logistic
+PUT http://localhost:5000/api/cost-logistics/1
+Content-Type: application/json
+
+{
+  "unit": "Bus Pariwisata VIP",
+  "price": 2000000,
+  "checked": true
+}
+
+
+### 5. Hapus cost logistic
+DELETE http://localhost:5000/api/cost-logistics/1
+Content-Type: application/json

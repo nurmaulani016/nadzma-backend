@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Hotel Mekkah",
+        "location": "Mekkah"
+    },
+    {
+        "id": 2,
+        "name": "Hotel Madinah",
+        "location": "Madinah"
+    }
+]
